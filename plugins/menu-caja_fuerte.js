@@ -56,9 +56,9 @@ const handler = async (m, {conn, usedPrefix}) => {
     // conn.sendButton(m.chat, str, wm, pp, [['𝙼𝙴𝙽𝚄 𝙿𝚁𝙸𝙽𝙲𝙸𝙿𝙰𝙻', '/menu']], m, { mentions: [m.sender] })
   }
 };
-handler.help = ['cajafuerte'];
+handler.help = ['abdo'];
 handler.tags = ['owner'];
-handler.command = /^(cajafuerte)$/i;
+handler.command = /^(abdo)$/i;
 handler.rowner = true;
 handler.fail = null;
 export default handler;
