@@ -11,36 +11,36 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['212637492074', '👑 Mystic - Creador 👑', true],
-  ['212637492074', '💫 Mystic - Collaborator 1 💫', true],
-  ['212707676259', '💫 Mystic - Collaborator 2 💫', true],
-  ['212707676259', '💫 Mystic - Collaborator 3 💫', true],
-  ['212707676259', '💫 Mystic - Collaborator 4 💫', true],
-  ['212637492074', '💫 Mystic - Collaborator 5 💫', true],
-  ['212707676259', '💫 Mystic - Collaborator 6 💫', true],
-  ['212707676259', '💫 Mystic - Rey Endymion 💫', false],
-  ['212637492074', '💫 Mystic - Collaborator 8 💫', true],
-  ['212707676259','💫 Mystic - Tester Fabri115💫', true],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'], 
-  ['212707676259'],  
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'],
-  ['212707676259'], 
-  ['212707676259'], 
-  ['212707676259'],
-  ['212707676259']
+  ['212644841682', '👑 Mystic - Creador 👑', true],
+  ['212644841682', '💫 Mystic - Collaborator 1 💫', true],
+  ['212644841682', '💫 Mystic - Collaborator 2 💫', true],
+  ['212644841682', '💫 Mystic - Collaborator 3 💫', true],
+  ['212644841682', '💫 Mystic - Collaborator 4 💫', true],
+  ['212644841682', '💫 Mystic - Collaborator 5 💫', true],
+  ['212644841682', '💫 Mystic - Collaborator 6 💫', true],
+  ['212644841682', '💫 Mystic - Rey Endymion 💫', false],
+  ['212644841682', '💫 Mystic - Collaborator 8 💫', true],
+  ['212644841682','💫 Mystic - Tester Fabri115💫', true],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'], 
+  ['212644841682'],  
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'],
+  ['212644841682'], 
+  ['212644841682'], 
+  ['212644841682'],
+  ['212644841682']
 ];
 
-global.suittag = ['212707676259'];
-global.prems = ['212707676259'];
+global.suittag = ['212644841682'];
+global.prems = ['212644841682'];
 
 global.packname = 'Sticker';
 global.author = 'The Mystic - Bot';
@@ -71,12 +71,12 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nThe Mystic - Bot`;
 global.gt = 'The Mystic - Bot';
 global.mysticbot = 'The Mystic - Bot';
-global.md = 'https://instagram.com/nawfal_the_ghost';
-global.mysticbot = 'https://instagram.com/nawfal_the_ghost';
+global.md = 'https://instagram.com/Abdo_ziti';
+global.mysticbot = 'https://instagram.com/Abdo_ziti';
 global.waitt = '*جـــاري التحميــل ..🫶🩷*';
 global.waittt = '*جـــاري التحميــل ..🫶🩷*';
 global.waitttt = '*جـــاري التحميــل ..🫶🩷*';
-global.nomorown = '212707676259';
+global.nomorown = '212644841682';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
