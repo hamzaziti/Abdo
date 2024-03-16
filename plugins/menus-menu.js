@@ -90,7 +90,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ⎪⌲💕 _${usedPrefix}ytmp4 <link>_
  ⎪⌲💕_${usedPrefix}mediafire <link>_
  ⎪⌲💕 _${usedPrefix}gdrive <link>_
- ⎪⌲💕 _${usedPrefix}<link>_
+ ⎪⌲💕 _${usedPrefix}instagram <link>_
  ⎪⌲💕 _${usedPrefix}spotify_
  ⎪⌲💕 _${usedPrefix}facebook <link>_
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
