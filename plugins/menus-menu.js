@@ -35,7 +35,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   
   ❀° ┄──•••───╮
-متــابعـة مـــن فضــلك : https://instagram.com/nawfal_the_ghost
+متــابعـة مـــن فضــلك : https://instagram.com/Abdo_ziti
 
 *╭─────≼‎قائمةالقائمة≽*
 *▢🌎${usedPrefix}menuaudios* أوديويات 
@@ -80,7 +80,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *╭─────≼‎ عبــارات ≽*
 *⌲❄️${usedPrefix}piropo*
 *⌲❄️${usedPrefix}love*
-*⌲❄️${usedPrefix}nawfal*
+*⌲❄️${usedPrefix}abdo*
  〢╭─────≼ ‎ التنــزيـلات   ≽*
  ⎪⌲💕_${usedPrefix}play_
  ⎪⌲💕 _${usedPrefix}song_
