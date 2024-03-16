@@ -45,7 +45,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🌿${usedPrefix}mediafire*
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
-〢╭─────≼الذكـاء الاصطنــاعي≽*
+*╭─────≼الذكـاء الاصطنــاعي≽*
 *⌲📜${usedPrefix}ai*
 *⌲📜${usedPrefix}chatgpt*
 *⌲📜${usedPrefix}ia*
@@ -69,30 +69,30 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🍀هل*
 *⌲🍀الطقس*
 *╭─────≼‎ المحــولات ≽*
-⌲_☄️${usedPrefix}toanime_ *<صور>*
-⌲_☄️${usedPrefix}togifaud_ *<فيديو>*
-⌲_☄️${usedPrefix}toimg_ *<ملصق>*
-⌲_☄️${usedPrefix}tomp3_ *<فيديو>* 
-⌲_☄️${usedPrefix}tomp3_ *<ملاحظة صوتية>*
-⌲_☄️${usedPrefix}toptt_ *<فيديو / صوت>*
-⌲_☄️${usedPrefix}tovideo_ *<ملصق>*
-⌲_☄️${usedPrefix}tts_ *<تأثير> <النص>*
+*⌲☄️${usedPrefix}toanime* *<صور>*
+*⌲☄️${usedPrefix}togifaud* *<فيديو>*
+*⌲☄️${usedPrefix}toimg* *<ملصق>*
+*⌲☄️${usedPrefix}tomp3* *<فيديو>* 
+*⌲☄️${usedPrefix}tomp3* *<ملاحظة صوتية>*
+*⌲☄️${usedPrefix}toptt* *<فيديو / صوت>*
+*⌲☄️${usedPrefix}tovideo* *<ملصق>*
+*⌲☄️${usedPrefix}tts* *<تأثير> <النص>*
 *╭─────≼‎ عبــارات ≽*
 *⌲❄️${usedPrefix}piropo*
 *⌲❄️${usedPrefix}love*
 *⌲❄️${usedPrefix}abdo*
- 〢╭─────≼ ‎ التنــزيـلات   ≽*
- ⎪⌲💕_${usedPrefix}play_
- ⎪⌲💕 _${usedPrefix}song_
- ⎪⌲💕 _${usedPrefix}yta <link>_
- ⎪⌲💕_${usedPrefix}ytv <link>_
- ⎪⌲💕 _${usedPrefix}ytmp3 <link>_
- ⎪⌲💕 _${usedPrefix}ytmp4 <link>_
- ⎪⌲💕_${usedPrefix}mediafire <link>_
- ⎪⌲💕 _${usedPrefix}gdrive <link>_
- ⎪⌲💕 _${usedPrefix}instagram <link>_
- ⎪⌲💕 _${usedPrefix}spotify_
- ⎪⌲💕 _${usedPrefix}facebook <link>_
+*╭─────≼ ‎ التنــزيـلات   ≽*
+ *⌲💕${usedPrefix}play*
+ *⌲💕${usedPrefix}song*
+ *⌲💕${usedPrefix}yta* *<link>*
+ *⌲💕${usedPrefix}ytv* *<link>*
+ *⌲💕${usedPrefix}ytmp3* *<link>*
+ *⌲💕${usedPrefix}ytmp4* *<link>*
+ *⌲💕${usedPrefix}mediafire* *<link>*
+ *⌲💕${usedPrefix}gdrive* *<link>*
+ *⌲💕${usedPrefix}instagram* *<link>*
+ *⌲💕${usedPrefix}spotify*
+ *⌲💕${usedPrefix}facebook* *<link>*
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
   *╭─────❀° ┄──•••───╮
           𝙊𝙒𝙉𝙀𝙍 𝙈𝙀𝙉𝙐  
@@ -113,14 +113,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🌺${usedPrefix}stop*
 *⌲🌺${usedPrefix}token*
 *╭─────≼ ‎البحــت عـن👇 ≽*
-⌲_🪵${usedPrefix}pelisplus_ *<txt>* فيلم
-⌲_🪵${usedPrefix}stickersearch_ *<txt>* ملصق
-⌲_🪵${usedPrefix}stickersearch2_  *<txt>* ملصق2
-⌲_🪵${usedPrefix}google_ *<txt>* موضوع أو نص
-⌲_🪵${usedPrefix}letra_ *<النص>*
-⌲_🪵${usedPrefix}wikipedia_ *<النص>*
-⌲_🪵${usedPrefix}ytsearch_ *<txt>* فيديو يوتيب 
-⌲_🪵${usedPrefix}playstore_  *<txt>* تطبيقات 
+*⌲🪵${usedPrefix}pelisplus* *<txt>* فيلم
+*⌲🪵${usedPrefix}stickersearch* *<txt>* ملصق
+*⌲🪵${usedPrefix}stickersearch2*  *<txt>* ملصق2
+*⌲🪵${usedPrefix}google* *<txt>* موضوع أو نص
+*⌲🪵${usedPrefix}letra* *<النص>*
+*⌲🪵${usedPrefix}wikipedia* *<النص>*
+*⌲🪵${usedPrefix}ytsearch* *<txt>* فيديو يوتيب 
+*⌲🪵${usedPrefix}playstore*  *<txt>* تطبيقات 
 *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
 ❀° ┄──•••───╮
           𝘽𝙊𝙏 𝙈𝙀𝙉𝙐     
