@@ -1,6 +1,6 @@
 import {alquran} from '@bochilteam/scraper'
 let handler = async (m, { args, usedPrefix, command }) => {
-    if (!(args[0] || args[1])) throw `البحث عن أي آية في القرآن بالصوت والقراءة :\n${usedPrefix + command} 1 2\n\nاذا لم تفهم اي شيء راسلني  هنا \n https://wa.me/+212707676259`
+    if (!(args[0] || args[1])) throw `البحث عن أي آية في القرآن بالصوت والقراءة :\n${usedPrefix + command} 1 2\n\nاذا لم تفهم اي شيء راسلني  هنا \n https://wa.me/+212644841682`
     if (isNaN(args[0]) || isNaN(args[1])) throw `contoh:\n${usedPrefix + command} 1 2\n\nhttps://wa.me/+212644841682 `
     let api = await alquran()
     let mes = `
