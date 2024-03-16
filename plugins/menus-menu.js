@@ -102,8 +102,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *⌲🐉${usedPrefix}owner*
 *⌲🐉${usedPrefix}reporte*
 *⌲🐉${usedPrefix}join* *<wagp_url>*
-*⌲🐉${usedPrefix}addprem [@user] <days>
-*⌲🐉${usedPrefix}delprem <@user>
+*⌲🐉${usedPrefix}addprem* *[@user]* *<days>*
+*⌲🐉${usedPrefix}delprem* *<@user>*
   *╰┄┄┄┄┄┄┄┄┄┄┄┄┄〢*
 *╭─────≼ ‎جـــادي بــوت ≽*
 *⌲🌺${usedPrefix}serbot --code*
