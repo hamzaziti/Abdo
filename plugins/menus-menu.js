@@ -42,7 +42,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 *▢🌎${usedPrefix}menuanimes* صور 
 *╭─────≼‎ تحمــيل التطبيقـــات‎ ≽*
 *⌲🌿${usedPrefix}apk*
-*⌲🌿${usedPrefix}medaifire*
+*⌲🌿${usedPrefix}mediafire*
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
 〢╭─────≼الذكـاء الاصطنــاعي≽*
