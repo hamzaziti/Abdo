@@ -992,7 +992,7 @@ export async function handler(chatUpdate) {
         if (!('autoread' in settings)) settings.autoread = false;
         if (!('autoread2' in settings)) settings.autoread2 = false;
         if (!('restrict' in settings)) settings.restrict = false;
-        if (!('antiCall' in settings)) settings.antiCall = false;
+        if (!('antiCall' in settings)) settings.antiCall = true;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
 	if (!('modejadibot' in settings)) settings.modejadibot = true;
         if (!('antispam' in settings)) settings.antispam = false;
