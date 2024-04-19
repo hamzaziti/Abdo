@@ -36,6 +36,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   
   ❀° ┄──•••───╮
 متــابعـة مـــن فضــلك : https://instagram.com/Abdo_ziti
+_______________________________
 https://www.instagram.com/mr.___abdo
 
 *╭─────≼‎قائمةالقائمة≽*
