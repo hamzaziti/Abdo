@@ -21,8 +21,8 @@ async function handler(m, { conn, usedPrefix, command }) {
     }
 }
 
-handler.help = ['remini'];
+handler.help = ['remini1'];
 handler.tags = ['image-edit'];
-handler.command = ['remini'];
+handler.command = ['remini1'];
 
 export default handler;
