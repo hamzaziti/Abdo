@@ -50,14 +50,13 @@ https://instagram.com/a_.b_d._o_4
 〢╭─────≼الذكـاء الاصطنــاعي≽*
 *⌲📜${usedPrefix}ai*
 *⌲📜${usedPrefix}chatgpt*
-*⌲📜${usedPrefix}ia*
 *⌲📜${usedPrefix}openai*
 *⌲📜${usedPrefix}robot*
 *⌲📜${usedPrefix}dx*
 *⌲📜${usedPrefix}fofo*
 *⌲📜${usedPrefix}simi*
 *╭─────≼ ‎ توليــد الصـور ≽*
-*⌲🩷${usedPrefix}remini*
+*⌲🩷${usedPrefix}remini1*
 *⌲🩷${usedPrefix}hd*
 *⌲🩷${usedPrefix}a-img*
 *⌲🩷${usedPrefix}dalle*
