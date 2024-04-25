@@ -1,64 +1,98 @@
-/* -------------------------------------------------------*/
-/* [❗]                      [❗]                      [❗] */
-/*                                                       */
-/*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
-/*     —◉ DESAROLLADO POR OTOSAKA:                       */
-/*     ◉ Otosaka (https://github.com/6otosaka9)          */
-/*     ◉ Número: wa.me/51993966345                       */
-/*                                                       */
-/*     —◉ FT:                                            */
-/*     ◉ BrunoSobrino (https://github.com/BrunoSobrino)  */
-/*                                                       */
-/* [❗]                      [❗]                      [❗] */
-/* -------------------------------------------------------*/
+import cheerio from 'cheerio';
 import fetch from 'node-fetch';
-import axios from 'axios';
-import translate from '@vitalets/google-translate-api';
-import {Configuration, OpenAIApi} from 'openai';
-const configuration = new Configuration({organization: global.openai_org_id, apiKey: global.openai_key});
-const openaiii = new OpenAIApi(configuration);
-const handler = async (m, {conn, text, usedPrefix, command}) => {
-  if (usedPrefix == 'a' || usedPrefix == 'A') return;
-  if (!text) أمثلة على الطلبات والأوامر*\n*◉ ${usedPrefix + command} تأملات في مسلسل Merlina 2022 على نتفليكس*\n*◉ ${usedPrefix + command} رمز JS للعبة الورق*`;
-  try {hrow `*[❗] أدخل طلبًا أو أمرًا لاستخدام وظيفة chatgpt*\n\n*—◉ أمثلة على الطلبات والأوامر*\n*◉ ${usedPrefix + command} تأملات في مسلسل Merlina 2022 على نتفليكس*\n*◉ ${usedPrefix + command} رمز JS للعبة الورق*`;
-  try {
-        conn.sendPresenceUpdate('composing', m.chat);
-        //let sistema1 = await fetch(`https://raw.githubusercontent.com/Skidy89/chat-gpt-jailbreak/main/Text.txt`).then(v => v.text());
-        let sistema1 = `ستكون بمثابة روبوت WhatsApp الذي أنشأه نوفــل  The Mystic - Bot.`;
-        async function getOpenAIChatCompletion(texto) {
-        const openaiAPIKey = global.openai_key;
-        let chgptdb = global.chatgpt.data.users[m.sender];
-        chgptdb.push({ role: 'user', content: texto });
-        const url = "https://api.openai.com/v1/chat/completions";
-        const headers = { "Content-Type": "application/json", "Authorization": `Bearer ${openaiAPIKey}` };
-        const data = { "model": "gpt-3.5-turbo", "messages": [{ "role": "system", "content": sistema1 }, ...chgptdb, ]};
-        const response = await fetch(url, {method: "POST", headers: headers, body: JSON.stringify(data)});
-        const result = await response.json();
-        const finalResponse = result.choices[0].message.content;
-        return finalResponse;
-        };
-        let respuesta = await getOpenAIChatCompletion(text);
-        if (respuesta == 'error' || respuesta == '' || !respuesta) return XD; // causar error undefined para usar otra api
-        m.reply(`${respuesta}`.trim());
-    } catch {
-      try {
-        conn.sendPresenceUpdate('composing', m.chat);
-        const botIA222 = await openaiii.createCompletion({model: 'text-davinci-003', prompt: text, temperature: 0.3, max_tokens: 4097, stop: ['Ai:', 'Human:'], top_p: 1, frequency_penalty: 0.2, presence_penalty: 0});
-        if (botIA222.data.choices[0].text == 'error' || botIA222.data.choices[0].text == '' || !botIA222.data.choices[0].text) return XD; // causar error undefined para usar otra api
-        m.reply(botIA222.data.choices[0].text.trim());
-    } catch {
-      try {
-        conn.sendPresenceUpdate('composing', m.chat);
-        const syms1 = `ستكون بمثابة روبوت WhatsApp الذي أنشأه نوفــل The Mystic - Bot.`;
-        const Empireapi1 = await fetch(`https://api.cafirexos.com/api/chatgpt?text=${text}&name=${m.name}&prompt=${syms1}`);
-        const empireApijson1 = await Empireapi1.json();
-        if (empireApijson1.resultado == 'error' || empireApijson1.resultado == '' || !empireApijson1.resultado) return XD; // causar error undefined para lanzar msg de error
-        m.reply(`${empireApijson1.resultado}`.trim());
-    } catch {
-      throw `*[❗] خطأ، حاول مرة أخرى*`;
-    }
-   }
- }
-};
-handler.command = /^(openai|chatgpt|ai|robot|openai2|chatgpt2|ia|robot2|fofo|nono)$/i;
-export default handler;
+let handler = async (m, {
+    conn,
+    args,
+    usedPrefix,
+    text,
+    command
+}) => {
+if (!text) return m.reply("ميزة الذكاء الاصطناعي \nExample:\n .chatgpt ما هي عاصمة المغرب")
+await m.reply(wait)
+try {
+// Contoh penggunaan
+let result = await CleanDx(text)
+await m.reply(result)
+} catch (e) {
+await m.reply('وقعت مشكلة :(')
+}
+}
+handler.help = ["chatgpt"]
+handler.tags = ["ai"]
+handler.command = /^(chatgpt)$/i
+export default handler
+
+/* New Line */
+async function CleanDx(your_qus) {
+  let linkaiList = [];
+  let linkaiId = generateRandomString(21);
+  let Baseurl = "https://vipcleandx.xyz/";
+
+  console.log(formatTime());
+  linkaiList.push({
+    "content": your_qus,
+    "role": "user",
+    "nickname": "",
+    "time": formatTime(),
+    "isMe": true
+  });
+  linkaiList.push({
+    "content": "正在思考中...",
+    "role": "assistant",
+    "nickname": "AI",
+    "time": formatTime(),
+    "isMe": false
+  });
+  if (linkaiList.length > 10) {
+    linkaiList = linkaiList.shift();
+  }
+
+ let response = await fetch(Baseurl + "v1/chat/gpt/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "X-Forwarded-For": generateRandomIP(),
+      "Referer": Baseurl,
+      "accept": "application/json, text/plain, */*"
+    },
+    body: JSON.stringify({
+      "list": linkaiList,
+      "id": linkaiId,
+      "title": your_qus,
+      "prompt": "",
+      "temperature": 0.5,
+      "models": "0",
+      "continuous": true
+    })
+  })
+  const data = await response.text();
+    
+    return data;
+}
+
+function generateRandomString(length) {
+  const characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  let randomString = '';
+  for (let i = 0; i < length; i++) {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    randomString += characters.charAt(randomIndex);
+  }
+  return randomString;
+}
+
+function generateRandomIP() {
+  const ipParts = [];
+  for (let i = 0; i < 4; i++) {
+    const randomPart = Math.floor(Math.random() * 256);
+    ipParts.push(randomPart);
+  }
+  return ipParts.join('.');
+}
+
+function formatTime() {
+  const currentDate = new Date();
+  const hours = currentDate.getHours().toString().padStart(2, '0');
+  const minutes = currentDate.getMinutes().toString().padStart(2, '0');
+  const seconds = currentDate.getSeconds().toString().padStart(2, '0');
+  return `${hours}:${minutes}:${seconds}`;
+}
