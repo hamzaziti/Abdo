@@ -23,6 +23,6 @@ const handler = async (m, {conn, text, usedPrefix, command}) => {
   }
 };
 
-handler.command = /^[ai]$/i;
+handler.command = /^(ai)$/i;
 
 export default handler;
