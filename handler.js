@@ -906,7 +906,7 @@ export async function handler(chatUpdate) {
         global.db.data.users[m.sender].akinator = {};
       }
 		    if (akinator) {
-        if (!('sesi' in akinator)) akinator.sesi = false;
+        if (!('sesi' in akinator)) akinator.sesi = true;
         if (!('server' in akinator)) akinator.server = null;
         if (!('frontaddr' in akinator)) akinator.frontaddr = null;
         if (!('session' in akinator)) akinator.session = null;
@@ -995,7 +995,7 @@ export async function handler(chatUpdate) {
         if (!('antiCall' in settings)) settings.antiCall = true;
         if (!('antiPrivate' in settings)) settings.antiPrivate = false;
 	if (!('modejadibot' in settings)) settings.modejadibot = true;
-        if (!('antispam' in settings)) settings.antispam = false;
+        if (!('antispam' in settings)) settings.antispam = true;
 	if (!('audios_bot' in settings)) settings.audios_bot = true;  
 	if (!('modoia' in settings)) settings.modoia = false;      
       } else {
