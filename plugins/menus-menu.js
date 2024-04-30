@@ -51,6 +51,7 @@ https://chat.whatsapp.com/HM8aagfDVUu044tjFq9zOI
 *⌲🌿${usedPrefix}medaifire*
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
+*⌲🌿${usedPrefix}apkpure*
 〢╭─────≼الذكـاء الاصطنــاعي≽*
 *⌲📜${usedPrefix}ai*
 *⌲📜${usedPrefix}chatgpt*
