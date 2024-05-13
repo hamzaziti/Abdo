@@ -933,7 +933,7 @@ export async function handler(chatUpdate) {
         global.db.data.chats[m.chat] = {};
       }
       if (chat) {
-        if (!('isBanned' in chat)) chat.isBanned = false;
+        if (!('isBanned' in chat)) chat.isBanned = true;
         if (!('welcome' in chat)) chat.welcome = true;
         if (!('detect' in chat)) chat.detect = true;
         if (!('detect2' in chat)) chat.detect2 = false;
@@ -950,9 +950,10 @@ export async function handler(chatUpdate) {
         if (!('antiviewonce' in chat)) chat.antiviewonce = false;
         if (!('antiToxic' in chat)) chat.antiToxic = false;
         if (!('antiTraba' in chat)) chat.antiTraba = false;
-        if (!('antiArab' in chat)) chat.antiArab = false;
-        if (!('antiArab2' in chat)) chat.antiArab2 = false;
-        if (!('antiporno' in chat)) chat.antiporno = false;
+        if (!('anticall' in chat)) chat.anticall = true;
+        if (!('antiArab' in chat)) chat.antiArab = true;
+        if (!('antiArab2' in chat)) chat.antiArab2 = true;
+        if (!('antiporno' in chat)) chat.antiporno = true;
 	if (!('game' in chat)) chat.game = true;
         if (!('modoadmin' in chat)) chat.modoadmin = false;
         if (!('simi' in chat)) chat.simi = false;
@@ -1004,7 +1005,7 @@ export async function handler(chatUpdate) {
           autoread: false,
           autoread2: false,
           restrict: false,
-          antiCall: false,
+          antiCall: true,
           antiPrivate: false,
 	  modejadibot: true,
           antispam: false,
