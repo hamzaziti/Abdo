@@ -48,7 +48,8 @@ https://chat.whatsapp.com/HM8aagfDVUu044tjFq9zOI
 *▢🌎${usedPrefix}menuanimes* صور 
 *╭─────≼‎ تحمــيل التطبيقـــات‎ ≽*
 *⌲🌿${usedPrefix}apk*
-*⌲🌿${usedPrefix}medaifire*
+*⌲🌿${usedPrefix}apk2*
+*⌲🌿${usedPrefix}mediafire*
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
 〢╭─────≼الذكـاء الاصطنــاعي≽*
