@@ -49,6 +49,7 @@ https://chat.whatsapp.com/HM8aagfDVUu044tjFq9zOI
 *╭─────≼‎ تحمــيل التطبيقـــات‎ ≽*
 *⌲🌿${usedPrefix}apk*
 *⌲🌿${usedPrefix}apk2*
+*⌲🌿${usedPrefix}apk3*
 *⌲🌿${usedPrefix}mediafire*
 *⌲🌿${usedPrefix}dapk2*
 *⌲🌿${usedPrefix}modapk*
