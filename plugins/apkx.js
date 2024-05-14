@@ -39,9 +39,9 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
     }
 }
 
-handler.command = /^(apk)$/i;
-handler.help = ['apk'];
-handler.tags = ['downloader'];
+handler.command = /^(apk4)$/i;
+handler.help = ['apk4'];
+handler.tags = ['apk4'];
 export default handler;
 
 async function apk(text) {
